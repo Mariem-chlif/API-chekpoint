@@ -1,6 +1,41 @@
 .App {
   text-align: center;
+  display: flex;
+  list-style: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  align-items: center;
+  
+  
 }
+.liste{
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px 0px;
+ 
+}
+.liste .card{
+  justify-content: space-around;
+  margin: 7px;
+  width: 500px;
+  list-style: none;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body{
+  background-color: rgb(203, 204, 250);
+}
+
+
 
 .App-logo {
   height: 40vmin;
